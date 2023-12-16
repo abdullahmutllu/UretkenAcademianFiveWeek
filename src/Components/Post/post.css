@@ -1,0 +1,12 @@
+.Post {
+  margin-right: 25px;
+}
+.Post img {
+  border-radius: 50px;
+  width: 250px;
+  height: 250px;
+}
+.Post .desc {
+  font-size: 20px;
+  width: 50px;
+}

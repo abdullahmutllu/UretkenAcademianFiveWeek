@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 125px;
+  position: sticky;
+  top: 0;
+}
+.header .headerLeft {
+  flex: 3;
+}
+.header .headerLeft .pageTitle {
+  font-size: 45px;
+  margin-left: 15px;
+}
+.header .headerMiddle {
+  flex: 6;
+}
+.header .headerMiddle .topList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.header .headerMiddle .topList .TopListItem {
+  margin-right: 40px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.header .headerRight {
+  flex: 3;
+  margin-right: 55px;
+}
+.header .headerRight .Icon {
+  font-size: 25px;
+  margin-right: 15px;
+  float: right;
+}
